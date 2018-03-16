@@ -1,0 +1,40 @@
+{
+    icon": "fa-openshift",
+    "title": "Kubernetes basics",
+    "description": "k8s-kubectl",
+    "pathwayTitle": "OpenShift",
+    "difficulty": "beginner",
+    "time": "60 minutes",
+    "backend": {
+        "imageid": "openshift-3-7",
+        "port": 8443
+    },
+    "environment": {
+        "showdashboard": true,
+        "dashboard": "Dashboard",
+        "uilayout": "terminal",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n",
+        "hideintro": false,
+        "hidefinish": false
+    },
+    "details": {
+        "steps": [{
+            "title": "Chapter 1...",
+            "text": "step1.md"
+        }],
+        "intro": {
+            "courseData": "env-init.sh",
+            "title": "introducing Chapter 1...",
+            "code": "set-env.sh",
+            "text": "intro.md w00t!"
+            "credits": "by @ryanj"
+        },
+        "finish": {
+            "title": "thanks for reading Chapter 1!",
+            "text": "finish.md"
+        },
+        "assets": {
+          "host01": [{"file": "volumes.json", "target": "~/"}]
+        }
+    }
+}
