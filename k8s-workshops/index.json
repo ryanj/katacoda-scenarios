@@ -26,7 +26,7 @@
             "courseData": "env-init.sh",
             "title": "introducing Chapter 1...",
             "code": "set-env.sh",
-            "text": "intro.md w00t!"
+            "text": "intro.md w00t!",
             "credits": "by @ryanj"
         },
         "finish": {
