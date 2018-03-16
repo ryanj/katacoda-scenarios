@@ -1,5 +1,5 @@
 {
-    icon": "fa-openshift",
+    "icon": "fa-openshift",
     "title": "Kubernetes basics",
     "description": "k8s-kubectl",
     "pathwayTitle": "OpenShift",
